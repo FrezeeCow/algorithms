@@ -5,7 +5,7 @@ Minimal and clean example implementations of data structures and algorithms in P
 
 
 ## List of Implementations
-000
+
 - [array](array)
     - [circular_counter](array/circular_counter.py)
     - [flatten](array/flatten.py)
