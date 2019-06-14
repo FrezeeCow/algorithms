@@ -16,7 +16,6 @@ The goal is to find out the least movement needed to rearrange the parking lot f
 
 # output: 4
 
-
 # We can swap 1 with 0 in the initial array to get [0,2,3,1,4] and so on.
 # Each step swap with 0 only.
 
@@ -25,8 +24,6 @@ The goal is to find out the least movement needed to rearrange the parking lot f
 # step2：0 2 3 1 4 --> 3 2 0 1 4
 # step3: 3 2 0 1 4 --> 3 0 2 1 4
 # step4: 3 0 2 1 4 --> 0 3 2 1 4
-
-
 
 def garage(initial, final):
     steps = 0
