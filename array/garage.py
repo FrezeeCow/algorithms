@@ -11,7 +11,7 @@ The goal is to find out the least movement needed to rearrange the parking lot f
 
 # Say the initial state is an array:
 
-# input initial: [1,2,3,0,4]  # where 1,2,3,4 are different cars, and 0 is the empty spot.
+# input initial: [1, 2, 3, 0, 4]  # where 1,2,3,4 are different cars, and 0 is the empty spot.
 # input final: [0, 3, 2, 1, 4]
 
 # output: 4
