@@ -23,6 +23,8 @@ def list_flatten(l, a=None):
             a.append(i)
     return a
 
+a = [2, 1, [3, [4, 5], 6], 7, [8]]
+print(list_flatten(a))
 
 # stack version
 # public static List<Integer> flatten(List<NestedList> l) {
