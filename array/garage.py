@@ -5,9 +5,8 @@ The goal is to find out the least movement needed to rearrange the parking lot f
 """
 
 """
-有一个只有一个空位的停车场。 鉴于停车场的初始状态和最终状态。 
-每一步我们只允许将汽车移出其位置并将其移动到空位。
-目标是找出将停车场从初始状态重新排列到最终状态所需的最少运动。
+有一个只有一个空位的停车场。 鉴于停车场的初始状态和最终状态。 每一步我们只允许将汽车移出其位置并将其移动到空位。目标是找出将停车场
+从初始状态重新排列到最终状态所需的最少运动。
 """
 
 # Say the initial state is an array:
