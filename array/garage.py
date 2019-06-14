@@ -21,9 +21,9 @@ The goal is to find out the least movement needed to rearrange the parking lot f
 
 # 1 2 3 0 4 --> 0 3 2 1 4
 # step1: 1 2 3 0 4 --> 0 2 3 1 4 
-# step2：0 2 3 1 4 --> 3 2 0 1 4
-# step3: 3 2 0 1 4 --> 3 0 2 1 4
-# step4: 3 0 2 1 4 --> 0 3 2 1 4
+# step2：0 2 3 1 4 --> 2 0 3 1 4
+# step3: 2 0 3 1 4 --> 2 3 0 1 4
+# step4: 2 3 0 1 4 --> 0 3 2 1 4
 
 def garage(initial, final):
     steps = 0
