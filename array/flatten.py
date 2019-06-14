@@ -1,10 +1,6 @@
 """
 Implement Flatten Arrays.
-Given an array that may contain nested arrays,
-give a single resultant array.
-
-function flatten(input){
-}
+Given an array that may contain nested arrays, give a single resultant array.
 
 Example:
 
@@ -13,7 +9,7 @@ flatten(input);
 Output: [2, 1, 3, 4, 5, 6, 7, 8]
 """
 
-
+# 基于递归的实现方法，isinstance 用于判断参数a是否属于(list, tuple)中的类型的一种，返回bool类型，与type的区别在于会继承判断类型。
 def list_flatten(l, a=None):
     a = list(a) if isinstance(a, (list, tuple)) else []
     for i in l:
