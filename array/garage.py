@@ -1,9 +1,14 @@
-# There is a parking lot with only one empty spot. Given the initial state
-# of the parking lot and the final state. Each step we are only allowed to
-# move a car
-# out of its place and move it into the empty spot.
-# The goal is to find out the least movement needed to rearrange
-# the parking lot from the initial state to the final state.
+"""
+There is a parking lot with only one empty spot. Given the initial state of the parking lot and the final state. 
+Each step we are only allowed to move a car out of its place and move it into the empty spot.
+The goal is to find out the least movement needed to rearrange the parking lot from the initial state to the final state.
+"""
+
+"""
+有一个只有一个空位的停车场。 鉴于停车场的初始状态和最终状态。 
+每一步我们只允许将汽车移出其位置并将其移动到空位。
+目标是找出将停车场从初始状态重新排列到最终状态所需的最少运动。
+"""
 
 # Say the initial state is an array:
 
